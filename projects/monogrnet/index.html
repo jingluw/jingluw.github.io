@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="msra"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>MonoGRNet</title>
+	
+	<link media="all" href="./files/style.css" type="text/css" rel="stylesheet">
+</head>
+<body data-gr-c-s-loaded="true">
+<div id="content">
+	<h1>
+			MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization
+	</h1>
+	<div id="header">
+		<p id="people">
+			<a href="">Zengyi Qin<sup>1</sup></a>,
+			<a href="https://www.microsoft.com/en-us/research/people/jinglwa/">Jinglu Wang<sup>2</sup></a>,
+			<a href="https://www.microsoft.com/en-us/research/people/yanlu/">Yan Lu<sup>2</sup></a>
+		</p>	
+		<p>
+
+			<a><sup>1</sup>Tsinghua University</a>
+			<a><sup>2</sup>Microsoft Research Asia</a>
+		</p>
+		<p><em>The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)</em></p>
+	</div>
+	<img id="teaser" alt="teaser" src="./files/mod_teaser.png">
+	<h2>Abstract</h2>
+	<p id="text">	
+	Localizing objects in the real 3D space, which plays a crucial role in scene understanding, is particularly challenging given only a single RGB image due to the geometric information loss during imagery projection. We propose MonoGRNet for the amodal 3D object localization from a monocular RGB image via geometric reasoning in both the observed 2D projection and the unobserved depth dimension. MonoGRNet is a single, unified network composed of four task-specific subnetworks, responsible for 2D object detection, instance depth estimation (IDE), 3D localization and local corner regression. Unlike the pixel-level depth estimation that needs per-pixel annotations, we propose a novel IDE method that directly predicts the depth of the targeting 3D bounding box's center using sparse supervision. The 3D localization is further achieved by estimating the position in the horizontal and vertical dimensions. Finally, MonoGRNet is jointly learned by optimizing the locations and poses of the 3D bounding boxes in the global context. We demonstrate that MonoGRNet achieves state-of-the-art performance on challenging datasets.
+	</p>
+	<h2>Paper</h2>
+	<table><tbody>
+		<tr>
+			<td>
+			<a href="./files/aaai_mod_final.pdf">
+				<img id="thumbnail" alt="paper thumbnail" src="./files/mod_thumbnail.png">
+			</a>
+			</td>
+			<td>
+			►<a href="./files/aaai_mod_final.pdf">MonoGRNet.pdf</a>, 5.5 MB, <a href="https://arxiv.org/abs/1811.10247">[arXiv]</a> <br>
+			<br>
+			<p>
+				Zengyi Qin, Jinglu Wang, Yan Lu<br>
+				"MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localization",<br>
+				<em>The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)</em>
+				<!-- <a href="xxx.bib">[Bibtex]</a> -->
+			</p>
+			</td>
+		</tr>
+
+	</tbody></table>
+	<br>
+	<h2>Supplementary Material</h2>
+	<p id="text">
+		The following file provide additional technical details, extra analysis experiments including more qualitative results to the main paper.
+	</p>
+	<p>►<a href="./files/aaai_MonoGRNet_sup_mat.pdf">Supplementary.pdf</a>, 26.1 MB</p>
+	<h2>Video Demo</h2>
+		<video id="video" controls>
+			<source src="./files/demo_road.mp4" type="video/mp4">
+		</video>
+
+	<h2>Code</h2>
+	<p id="text">
+		Coming soon!
+	</p>
+	<h2>Presentation</h2>
+	<p id="text">
+		Coming soon!
+	</p>
+	<!-- <p id="text">
+		The following slides are presented in AAAI 2019 at Honolulu.
+	</p>
+	<p>►<a href="./files/MonoGRNet.pptx">Presentation.pptx</a>, 5.5 MB</p> -->
+	<div id="footer"><a><img src="./files/msr_logo.jpg" alt="logo" height="40"/></a></div>
+</div>
+
+
+</body></html>
