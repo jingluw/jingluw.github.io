@@ -3,7 +3,7 @@ title: "MonoGRNet: A Geometric Reasoning Network for Monocular 3D Object Localiz
 collection: publications
 permalink: /publication//2019-monogrnet
 date: 1/1/2019
-venue: 'The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)'
+venue: 'The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19) (oral)'
 # paperurl: 'http://jingluw.github.io/papers/aaai_mod_final.pdf'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
