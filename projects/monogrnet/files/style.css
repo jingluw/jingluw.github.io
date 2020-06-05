@@ -87,7 +87,13 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 640px;
-	border: 2px solid gray
+	border: 0px solid gray
+}
+
+#poster {
+	padding: 0px 30px 10px 10px;
+	float: left;
+	max-width: 300px;
 }
 
 #footer {
